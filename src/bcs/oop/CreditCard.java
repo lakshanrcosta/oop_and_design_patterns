@@ -1,4 +1,4 @@
-package org.bcs.oop;
+package bcs.oop;
 
 public class CreditCard extends PaymentCard{
 

@@ -1,4 +1,4 @@
-package org.bcs.oop;
+package bcs.oop;
 
 abstract public class PaymentCard {
     private String cardNumber;
