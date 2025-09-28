@@ -1,8 +1,8 @@
-package bcs.oop;
+package bcs.oop.runtime_polymorphism;
 
-abstract public class PaymentCard {
-    private String cardNumber;
-    private String cardHolderName;
+abstract public class PaymentCard implements PaymentMethod {
+    private final String cardNumber;
+    private final String cardHolderName;
 
     public PaymentCard(String cardNumber, String cardHolderName) {
         this.cardNumber = cardNumber;
@@ -13,10 +13,7 @@ abstract public class PaymentCard {
         return cardNumber;
     }
 
-    public String getCardHolderName(){
+    public String getCardHolderName() {
         return cardHolderName;
-
     }
-
-    abstract void pay();
 }

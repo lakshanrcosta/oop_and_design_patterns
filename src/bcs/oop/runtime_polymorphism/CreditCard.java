@@ -1,13 +1,13 @@
-package bcs.oop;
+package bcs.oop.runtime_polymorphism;
 
-public class CreditCard extends PaymentCard{
+public class CreditCard extends PaymentCard {
 
     public CreditCard(String cardNumber, String cardHolderName) {
         super(cardNumber, cardHolderName);
     }
 
     @Override
-    void pay() {
+    public void pay() {
         System.out.println("Making a payment with a credit card");
     }
 }

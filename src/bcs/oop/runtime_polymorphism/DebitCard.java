@@ -1,4 +1,4 @@
-package bcs.oop;
+package bcs.oop.runtime_polymorphism;
 
 public class DebitCard extends PaymentCard {
 
@@ -7,7 +7,7 @@ public class DebitCard extends PaymentCard {
     }
 
     @Override
-    void pay() {
+    public void pay() {
         System.out.println("Making a payment with a debit card");
     }
 }
