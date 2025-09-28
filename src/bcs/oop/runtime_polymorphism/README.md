@@ -69,9 +69,7 @@ the object's real type.
 
 ```java
 Animal a = new Cat();
-a.
-
-makeSound(); // Output: Meow
+a.makeSound(); // Output: Meow
 ```
 
 ---
