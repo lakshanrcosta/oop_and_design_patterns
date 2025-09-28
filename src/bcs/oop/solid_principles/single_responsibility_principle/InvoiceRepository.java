@@ -14,8 +14,4 @@ public class InvoiceRepository {
     public Invoice findById(String invoiceNumber) {
         return invoices.get(invoiceNumber);
     }
-
-    public boolean exists(String invoiceNumber) {
-        return invoices.containsKey(invoiceNumber);
-    }
 }
