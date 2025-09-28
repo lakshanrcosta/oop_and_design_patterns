@@ -34,9 +34,7 @@ methods).
 ```java
 Dog myDog = new Dog();
 myDog.name ="Buddy";
-        myDog.
-
-bark(); // Output: Buddy says woof!
+myDog.bark(); // Output: Buddy says woof!
 ```
 
 ### What is an Interface?
